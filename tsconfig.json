@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictBindCallApply": true,
+    "incremental": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "removeComments": true,
+    "noImplicitAny": false,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@test/*": [
+        "src/test/*"
+      ]
+    }
+  },
+  "exclude": [
+    "exemplo",
+    "node_modules",
+    "src/test",
+    "dist",
+    "**/*spec.ts",
+    "**/*test.ts"
+  ],
+  "include": [
+    "src"
+  ]
+}
